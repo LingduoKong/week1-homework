@@ -1,4 +1,7 @@
 planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', 'Neptune']
+for i in 1..8 do
+	puts "Planet #{i}: #{planets[i-1]}"
+end
 
 # 1. TO DO:
 #
